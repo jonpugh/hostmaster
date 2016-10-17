@@ -1,8 +1,11 @@
 {
   "name": "aegir/hostmaster",
-  "description": "Hostmaster is the web interface for Aegir, powered by Drupal.",
+  "description": "Hostmaster is the Drupal installation profile for the Aegir Web Interface",
   "type": "drupal-profile",
   "require": {
-    "php": "^5.3.3 || ^7.0"
+    "php": "^5.3.3 || ^7.0",
+    "drupal/token": "1.x-dev",
+    "drupal/ctools": "1.x-dev",
+    "drupal/admintoolbar": "1.x-dev"
   }
 }
