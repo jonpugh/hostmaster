@@ -2,11 +2,12 @@
   "name": "aegir/hostmaster",
   "description": "Hostmaster is the Drupal installation profile for the Aegir Web Interface",
   "type": "drupal-profile",
+  "minimum-stability": "dev",
   "require": {
     "php": "^5.3.3 || ^7.0",
-    "drupal/token": "1.0.0-beta2",
-    "drupal/ctools": "3.0.0-alpha27",
-    "drupal/admin_toolbar": "1.17.0"
+    "drupal/token": "dev-1.x",
+    "drupal/ctools": "dev-3.x",
+    "drupal/admin_toolbar": "dev-1.x"
   },
   "repositories": {
     "drupal": {
