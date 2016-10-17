@@ -1,6 +1,6 @@
 {
   "name": "aegir/hostmaster",
-  "description": "Drupal front-end for Aegir",
+  "description": "Drupal front-end for Aegir.",
   "type": "drupal-profile",
   "require": {
     "php": "^5.3.3 || ^7.0",
