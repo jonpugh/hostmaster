@@ -9,6 +9,13 @@
     "drupal/ctools": "dev-3.x",
     "drupal/admin_toolbar": "dev-1.x"
   },
+  "extra": {
+    "installer-paths": {
+      "modules/contrib/token": ["drupal/token"],
+      "modules/contrib/ctools": ["drupal/ctools"],
+      "modules/contrib/toolbar": ["drupal/admin_toolbar"]
+    }
+  },
   "repositories": {
     "drupal": {
       "type": "composer",
