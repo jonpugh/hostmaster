@@ -5,6 +5,10 @@
   "require": {
     "php": "^5.3.3 || ^7.0",
     "drupal/core": "8.2.*",
-    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-paths": {
+      "hostmaster-8.x-4.x": ["drupal/core"]
+    }
   }
 }
